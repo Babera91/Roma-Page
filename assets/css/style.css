@@ -1,0 +1,170 @@
+/* 
+Font: Santio bold, Roboto, Mr Dafoe
+Farbe: #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff
+*/
+
+@font-face {
+    font-family: santio;
+    src: url(../fonts/Santio-Bold.ttf);
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: dafoe;
+    src: url(../fonts/MrDafoe-Regular.ttf);
+}
+
+/* --- default --- */
+
+* {
+    margin: 0;
+}
+header, main {
+    background: rgba(0, 0, 0, .5) url(../img/cleo-topper.jpg) center/cover no-repeat;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+}
+
+span{
+    color: #fff;
+    background-color: #000 ;
+}
+/* --- header --- */
+
+header {
+    color: #fff;
+    padding: 1em 5em;
+    position: relative;
+}
+
+header a {
+    position: absolute;
+    top: 1em;
+    right: 5em;
+    font-family: roboto;
+    font-weight: 600;
+    font-size: 1.3em;
+    color: #fff;
+    letter-spacing: .1em;
+    text-decoration: none;
+    border-bottom: 2px solid #e7bc0e;
+    padding-bottom: .1em;
+}
+
+header img {
+    position: absolute;
+    top: 1em;
+    right: 16em;
+    width: 2.5em;
+}
+
+header h1 {
+    font-family: santio;
+    font-size: 3em;
+    margin: 3em 0;
+    margin-right: 70%;
+}
+
+header p {
+    font-family: dafoe;
+    font-size: 2em;
+    font-style: normal;
+    color: #e7bc0e;
+}
+/* --- main --- */
+main {
+    padding: 5em;
+}
+.first {
+    padding: 3em;
+    font-family: santio;
+    font-size: 2.5em;
+    line-height: 1.5em;
+    color:#6bc1a3;
+}
+.second{
+    padding: 2em;
+    font-family: santio;
+    font-size: 6em;
+    color: #e7bc0e;
+}
+.second img{
+    width: 30vh;
+}
+.second p{
+    font-size: .4em;
+}
+.third{
+    padding: 2em;
+    font-family: santio;
+    font-size: 6em;
+    color: #cb91b6;
+}
+.third img{
+    width: 30vh;
+}
+.third p{
+    font-size: .4em;
+}
+.fourth{
+    padding: 2em;
+    font-family: santio;
+    font-size: 6em;
+    color: #6bc1a3;
+}
+.fourth img{
+    width: 30vh;
+}
+.fourth p{
+    font-size: .4em;
+}
+.fifth{
+    padding: 2em;
+    padding-left: 15%;
+    font-family: santio;
+    font-size: 2em;
+    line-height: 1.5em;
+    color: #7eb8e1;
+}
+.bg{
+    height: 100vh;
+    background: url(../img/kid.png) bottom/cover no-repeat,url(../img/see.png) center/cover no-repeat;
+}
+footer {
+    display: block;
+    background-color: black;
+    color: #fff;
+}
+footer article>p{
+    font-size: 4em;
+    font-family: santio;
+    padding: 10% 60% 5% 5%;
+}
+footer article>a{
+    margin-left: 5%;
+    color: #fefefe;
+    text-decoration: none;
+    font-family: roboto;
+    font-size: 1.2em;
+    border: 1px solid white;
+    padding: 1% 2%;
+}
+footer article>a:hover{
+    box-shadow: .1em .1em white;
+}
+footer div{
+    display: block;
+    margin-top: 15%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+footer div p,a{
+    display: inline-block;
+}
+footer div a{
+    color: #6bc1a3;
+}
